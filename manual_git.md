@@ -3,7 +3,7 @@
 ## ¿Qué es GIT?
 - Un sistema de control de versiones distribuido, rápido y escalable que ayuda a crear el código con diferentes versiones y un historial de cambios
 
-### Ventajas de usar Git
+## Ventajas de usar Git
 
 - **Control de Versiones:**
   - Permite rastrear cambios en el código y revertir a versiones anteriores si es necesario.
@@ -22,87 +22,85 @@
 
 ## Comandos Básicos de Git
 
-1. **git init:**
+- **git init:**
    - Inicia un nuevo repositorio Git en el directorio actual.
 
-2. **git clone [URL]:**
+- **git clone [URL]:**
    - Clona un repositorio remoto en tu máquina local.
 
-3. **git add [archivo(s)]:**
+- **git add [archivo(s)]:**
    - Agrega cambios al área de preparación (staging) para ser incluidos en el próximo commit.
 
-4. **git commit -m "mensaje":**
+- **git commit -m "mensaje":**
    - Crea un nuevo commit con los cambios en el área de preparación y añade un mensaje descriptivo.
 
-5. **git status:**
+- **git status:**
    - Muestra el estado actual del repositorio, incluyendo archivos sin seguimiento, modificados y en el área de preparación.
 
-6. **git log:**
+- **git log:**
    - Muestra un historial de commits con información detallada.
 
-7. **git pull:**
+- **git pull:**
    - Obtiene cambios desde un repositorio remoto y los fusiona con la rama actual.
 
-8. **git push:**
+- **git push:**
    - Envía commits locales a un repositorio remoto.
 
-9. **git branch:**
+- **git branch:**
    - Muestra una lista de ramas y resalta la rama actual.
 
-10. **git branch [nombre_rama]:**
+- **git branch [nombre_rama]:**
     - Crea una nueva rama.
 
-11. **git checkout [nombre_rama]:**
+- **git checkout [nombre_rama]:**
     - Cambia a la rama especificada.
 
-12. **git merge [nombre_rama]:**
+- **git merge [nombre_rama]:**
     - Fusiona la rama especificada con la rama actual.
 
-13. **git remote -v:**
+- **git remote -v:**
     - Muestra las URLs de los repositorios remotos configurados.
 
-14. **git fetch:**
+- **git fetch:**
     - Descarga cambios desde un repositorio remoto, pero no los fusiona con tu rama actual.
 
-15. **git diff:**
+- **git diff:**
     - Muestra las diferencias entre los cambios sin preparar y la última versión guardada.
+
+## Comandos Básicos de Git
+- **git reflog:**
+    -Muestra un registro detallado de las referencias de Git, útil para recuperar cambios perdidos.
+
+- **git stash:**
+    -Guarda temporalmente los cambios locales sin commit para trabajar en otra tarea.
+
+- **git submodule:**
+    -Gestiona submódulos dentro del repositorio principal.
 
 ## Tipos de Usuarios en Git
 
 En Git, hay varios tipos de usuarios que interactúan con un repositorio. Estos roles definen los niveles de acceso y las responsabilidades que cada usuario tiene en el proyecto.
 
 ### 1. Usuario Anónimo:
-- **Descripción:** Accede al repositorio sin autenticación.
-- **Acciones Típicas:** Solo puede realizar operaciones de lectura (clonar).
+- Accede al repositorio sin autenticación.
 
 ### 2. Colaborador:
-- **Descripción:** Miembro del equipo que contribuye al desarrollo del proyecto.
-- **Acciones Típicas:** Clonar, confirmar cambios, enviar solicitudes de extracción.
+- Miembro del equipo que contribuye al desarrollo del proyecto.
 
 ### 3. Propietario del Repositorio:
-- **Descripción:** Persona o equipo que posee el repositorio.
-- **Acciones Típicas:** Configuración del repositorio, gestión de acceso, fusionar cambios.
+- Persona o equipo que posee el repositorio.
 
 ### 4. Revisor:
-- **Descripción:** Responsable de revisar y aprobar cambios propuestos.
-- **Acciones Típicas:** Revisar código, aprobar o rechazar solicitudes de extracción.
+-  Responsable de revisar y aprobar cambios propuestos.
 
-### 5. Lector:
-- **Descripción:** Usuario con permisos solo de lectura.
-- **Acciones Típicas:** Clonar y leer el repositorio, pero no puede realizar cambios.
+### 5. Contribuidor Externo:
+- Persona externa que realiza contribuciones ocasionales.
 
-### 6. Contribuidor Externo:
-- **Descripción:** Persona externa que realiza contribuciones ocasionales.
-- **Acciones Típicas:** Enviar cambios propuestos a través de solicitudes de extracción.
+### 6. Administrador del Sistema:
+- Persona encargada de la administración del sistema que aloja el repositorio.
 
-### 7. Administrador del Sistema:
-- **Descripción:** Persona encargada de la administración del sistema que aloja el repositorio.
-- **Acciones Típicas:** Configuración del servidor Git, gestión de usuarios y permisos.
+### 7. Usuario de Solo Lectura:
+- Tiene permisos solo de lectura en el repositorio.
 
-### 8. Usuario de Solo Lectura:
-- **Descripción:** Tiene permisos solo de lectura en el repositorio.
-- **Acciones Típicas:** Clonar y leer el repositorio, pero no puede realizar cambios.
-
-### 9. Desarrollador Principal:
-- **Descripción:** Miembro clave del equipo, a menudo responsable de la toma de decisiones importantes.
-- **Acciones Típicas:** Fusionar cambios críticos, liderar el desarrollo.
+### 8. Desarrollador Principal:
+- Miembro clave del equipo, a menudo responsable de la toma de decisiones importantes.
