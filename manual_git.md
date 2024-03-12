@@ -66,3 +66,43 @@
 
 15. **git diff:**
     - Muestra las diferencias entre los cambios sin preparar y la última versión guardada.
+
+## Tipos de Usuarios en Git
+
+En Git, hay varios tipos de usuarios que interactúan con un repositorio. Estos roles definen los niveles de acceso y las responsabilidades que cada usuario tiene en el proyecto.
+
+### 1. Usuario Anónimo:
+- **Descripción:** Accede al repositorio sin autenticación.
+- **Acciones Típicas:** Solo puede realizar operaciones de lectura (clonar).
+
+### 2. Colaborador:
+- **Descripción:** Miembro del equipo que contribuye al desarrollo del proyecto.
+- **Acciones Típicas:** Clonar, confirmar cambios, enviar solicitudes de extracción.
+
+### 3. Propietario del Repositorio:
+- **Descripción:** Persona o equipo que posee el repositorio.
+- **Acciones Típicas:** Configuración del repositorio, gestión de acceso, fusionar cambios.
+
+### 4. Revisor:
+- **Descripción:** Responsable de revisar y aprobar cambios propuestos.
+- **Acciones Típicas:** Revisar código, aprobar o rechazar solicitudes de extracción.
+
+### 5. Lector:
+- **Descripción:** Usuario con permisos solo de lectura.
+- **Acciones Típicas:** Clonar y leer el repositorio, pero no puede realizar cambios.
+
+### 6. Contribuidor Externo:
+- **Descripción:** Persona externa que realiza contribuciones ocasionales.
+- **Acciones Típicas:** Enviar cambios propuestos a través de solicitudes de extracción.
+
+### 7. Administrador del Sistema:
+- **Descripción:** Persona encargada de la administración del sistema que aloja el repositorio.
+- **Acciones Típicas:** Configuración del servidor Git, gestión de usuarios y permisos.
+
+### 8. Usuario de Solo Lectura:
+- **Descripción:** Tiene permisos solo de lectura en el repositorio.
+- **Acciones Típicas:** Clonar y leer el repositorio, pero no puede realizar cambios.
+
+### 9. Desarrollador Principal:
+- **Descripción:** Miembro clave del equipo, a menudo responsable de la toma de decisiones importantes.
+- **Acciones Típicas:** Fusionar cambios críticos, liderar el desarrollo.
