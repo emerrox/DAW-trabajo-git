@@ -12,4 +12,7 @@ Para que el restaurante esté listo para abrir, tendremos que tener todas las ra
 
 
 ## Desventajas
-- Un gran inconveniente viene de la mano con una de las ventajas, y es que si tener un grupo de personas en una rama te puede acelerar el trabajo, también puede dar lugar a creación de ramas alternativas. 
+- Un gran inconveniente viene de la mano con una de las ventajas, y es que si tener un grupo de personas en una rama te puede acelerar el trabajo, también puede dar lugar a creación de ramas alternativas.
+- La cantidad de ramas aternativas que se pueden tener
+- Nivel: Es algo complejo entender bien el funcionamiento y ponerlo en práctica. Si se usa sin tener tantos conociemientos, puede llevar a problemas a la hora de ponerlo en práctica
+- Hay proyectos en los que gitflow no es la mejor opción a utilizar, ya que igual es usar un sistema muy complejo para algo más simple
