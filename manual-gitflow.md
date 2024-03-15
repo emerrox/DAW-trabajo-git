@@ -20,35 +20,35 @@ Para que el restaurante esté listo para abrir, tendremos que tener todas las ra
 
 ## Comnados de git
 
-- git flow init: Inicializar gitflow en un repositorio existente
+- **git flow init:** Inicializar gitflow en un repositorio existente
   -  ``` git status ```
 
-- git flow feature start: Creamos una rama derivada de la rama en la que estemos
+- **git flow feature start:** Creamos una rama derivada de la rama en la que estemos
   - ``` git flow feature start {nombreRama} ```
 
-- git flow feature finish: Finalizamos la rama derivada y volvemos a la principal
+- **git flow feature finish:** Finalizamos la rama derivada y volvemos a la principal
   - ``` git flow feature finish {nombreRama} ```
 
-- git flow feature publish: Publica la rama derivada a un servidor remoto
+- **git flow feature publish:** Publica la rama derivada a un servidor remoto
   - ``` git flow feature publish {nombreRama} ```
 
-- git flow feature pull: Obtenemos una rama publicada por otra persona
+- **git flow feature pull:** Obtenemos una rama publicada por otra persona
   - ``` git flow feature pull origin {nombreRama} ```
 
-- git flow feature track: Hacemos un seguimiento de cambios de una rama
+- **git flow feature track:** Hacemos un seguimiento de cambios de una rama
   -  ``` git flow feature track {nombreRama} ```
 
-- git flow release start: Crea una rama de publicacion derivada de nuestra rama principal
+- **git flow release start:** Crea una rama de publicacion derivada de nuestra rama principal
   - ``` git flow release start {nombreRama} ```
 
-- git flow release publish: Publica la rama de publicación de manera similar a publicar características
+- **git flow release publish:** Publica la rama de publicación de manera similar a publicar características
   - ``` git flow release publish {nombreRama} ```
 
-- git flow release finish: Cierra la rama de publicacion. Fusiona la rama de publicacion con master, fusiona la rama publicacion con dev y borra la rama de publicacion
+- **git flow release finish:** Cierra la rama de publicacion. Fusiona la rama de publicacion con master, fusiona la rama publicacion con dev y borra la rama de publicacion
   - ``` git flow release finish {nombreRama} ```
 
-- git flow hotifix start: Crea una rama de revisión
+- **git flow hotifix start:** Crea una rama de revisión
   - ``` git flow hotifix start {nombreVersion} ```
 
-- git flow hotifix finish: Cierra una rama de revisión
+- **git flow hotifix finish:** Cierra una rama de revisión
    - ``` git flow hotifix finish {nombreVersion} ```
